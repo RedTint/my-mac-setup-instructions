@@ -51,14 +51,14 @@ Below is the basic setup requirements for my MAC to get it ready for development
 * Install **DiffMerge**
   * https://sourcegear.com/diffmerge/downloads.php
   * To use diffmerge with `git mergetool` run:
-  ```
-git config --global diff.tool diffmerge
-git config --global difftool.diffmerge.cmd 'diffmerge "$LOCAL" "$REMOTE"'
-git config --global merge.tool diffmerge
-git config --global mergetool.diffmerge.cmd 'diffmerge --merge --result="$MERGED" "$LOCAL" "$(if test -f "$BASE"; then echo "$BASE"; else echo "$LOCAL"; fi)" "$REMOTE"'
-git config --global mergetool.diffmerge.trustExitCode true
-git config --global mergetool.keepBackup false
-  ```
+```
+   git config --global diff.tool diffmerge
+   git config --global difftool.diffmerge.cmd 'diffmerge "$LOCAL" "$REMOTE"'
+   git config --global merge.tool diffmerge
+   git config --global mergetool.diffmerge.cmd 'diffmerge --merge --result="$MERGED" "$LOCAL" "$(if test -f "$BASE"; then echo    "$BASE"; else echo "$LOCAL"; fi)" "$REMOTE"'
+   git config --global mergetool.diffmerge.trustExitCode true
+   git config --global mergetool.keepBackup false
+```
 
 * Install **Communication Tools**
   * Install **Slack**
