@@ -10,8 +10,8 @@ Below is the basic setup requirements for my MAC to get it ready for development
   * <username>@elephantventures.com
   * <username>@personal-emails.com
 * **Generate SSH Key**
-  * `sudo ssh-keygen -t rsa -b 4096 -C “<username>@elephantventures.com”`
-  * `ssh-add -K ~/.ssh/id_rsa`
+  * `sudo ssh-keygen -t rsa -b 4096 -C “${username}@elephantventures.com”`
+  * `ssh-add -K ~/.ssh/id_rsa_${purpose}`
   * Set up Git SSH
 
 ## Main Installs
@@ -27,19 +27,25 @@ Below is the basic setup requirements for my MAC to get it ready for development
 * Install **iTerm**
   * Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
   * Set theme to “amuse”
-    * Run `vi ~/.zshrc`
+    * Run `$ vi ~/.zshrc`
     * Change `ZSH_THEME="robbyrussell"` to `ZSH_THEME="amuse"`
 
 * Install **Homebrew**
-  * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”`
+  * See https://brew.sh/
 
 * Install the following with **brew**:
-  * `brew install wget`
-  * `brew install git`
-  * `brew install htop`
-  * `brew install npm -g`
-  * `brew install python`
-  * **Command:** `brew install wget && brew install git && brew install htop && brew install npm -g && brew install python`
+  * `$ brew install wget`
+  * `$ brew install git`
+  * `$ brew install htop`
+  * `$ brew install npm -g`
+  * `$ brew install python` - NOTE: includes python3
+  * `$ brew install helm`
+  * **Command:** `$ brew install wget && brew install git && brew install htop && brew install npm -g && brew install python && brew install helm`
+
+* Install **PIP**
+  * https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py
+  * `$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+  * `$ python3 get-pip.py`
 
 * Install **Docker for Mac (350 Mb+)**
   * https://docs.docker.com/docker-for-mac/install/
