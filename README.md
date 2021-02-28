@@ -54,7 +54,7 @@ Below is the basic setup requirements for my MAC to get it ready for development
   * Configure Preferences:
   * Set Disk Space to only 32Gb
 
-* Install **DiffMerge**
+* Install **DiffMerge** (no longer working for MacOSX Catalina & Up)
   * https://sourcegear.com/diffmerge/downloads.php
   * To use diffmerge with `git mergetool` run:
 ```
@@ -99,6 +99,7 @@ Below is the basic setup requirements for my MAC to get it ready for development
 * Install **Dropbox**
   * https://www.dropbox.com/en_GB/install
 
+* Install **Discord**
 * Install **Skype**
 * Install **VLC Player (45.7mb)**
   * https://www.videolan.org/vlc/download-macosx.html
