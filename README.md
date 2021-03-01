@@ -1,5 +1,5 @@
 
-# Setting Up My Mac (as of 2018, Jun 11)
+# Setting Up My Mac (as of 2021, Mar 1)
 Below is the basic setup requirements for my MAC to get it ready for development.
 
 ## Mac Configuration
