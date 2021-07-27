@@ -34,6 +34,7 @@ Below is the basic setup requirements for my MAC to get it ready for development
   * See https://brew.sh/
 
 * Install the following with **brew**:
+  * `$ brew install cask`
   * `$ brew install wget`
   * `$ brew install git`
   * `$ brew install htop`
