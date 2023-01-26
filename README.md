@@ -55,18 +55,6 @@ Below is the basic setup requirements for my MAC to get it ready for development
   * Configure Preferences:
   * Set Disk Space to only 32Gb
 
-* Install **DiffMerge** (no longer working for MacOSX Catalina & Up)
-  * https://sourcegear.com/diffmerge/downloads.php
-  * To use diffmerge with `git mergetool` run:
-```
-   git config --global diff.tool diffmerge
-   git config --global difftool.diffmerge.cmd 'diffmerge "$LOCAL" "$REMOTE"'
-   git config --global merge.tool diffmerge
-   git config --global mergetool.diffmerge.cmd 'diffmerge --merge --result="$MERGED" "$LOCAL" "$(if test -f "$BASE"; then echo    "$BASE"; else echo "$LOCAL"; fi)" "$REMOTE"'
-   git config --global mergetool.diffmerge.trustExitCode true
-   git config --global mergetool.keepBackup false
-```
-
 * Install **Communication Tools**
   * Install **Slack**
 
@@ -101,12 +89,8 @@ Below is the basic setup requirements for my MAC to get it ready for development
   * https://www.dropbox.com/en_GB/install
 
 * Install **Discord**
-* Install **Skype**
-* Install **VLC Player (45.7mb)**
   * https://www.videolan.org/vlc/download-macosx.html
 * Install **Spotify**
 * Install **MAMP**
   * Download PHP 5.5.38 and copy to /bin
-* Install **Adobe Creative Cloud**
-  * I have Photoshop Subscription that needs to be installed
 * Install **Pomodoro Time (paid)**
