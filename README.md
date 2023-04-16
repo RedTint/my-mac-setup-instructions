@@ -1,5 +1,5 @@
 
-# Setting Up My Mac (as of 2021, Mar 1)
+# Setting Up My Mac (as of 2023, Apr 16) - MacBook Pro M1 / 1TB
 Below is the basic setup requirements for my MAC to get it ready for development.
 
 ## Mac Configuration
