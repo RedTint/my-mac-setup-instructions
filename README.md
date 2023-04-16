@@ -60,6 +60,9 @@ Below is the basic setup requirements for my MAC to get it ready for development
 
 * Install **Visual Studio Code (68.6mb)**
   * Install Plugins: `tslint`, `vscode-docker` and `vscode-icons`
+  * Configure `Preferences` > `Settings`
+    * Enable `Trim Trailing Whitespace`
+    * Enable `Insert Final Newline`
 
 * Install **Postman App (66.1mb)**
   * https://www.getpostman.com/apps
