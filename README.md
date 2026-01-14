@@ -1,5 +1,5 @@
 
-# Setting Up My Mac (as of 2023, Apr 16) - MacBook Pro M1 / 1TB
+# Setting Up My Mac (as of 2026, Jan 14) - MacBook Max M4
 Below is the basic setup requirements for my MAC to get it ready for development.
 
 ## Mac Configuration
@@ -11,7 +11,7 @@ Below is the basic setup requirements for my MAC to get it ready for development
   * <username>@personal-emails.com
 * **Generate SSH Key**
   * `sudo ssh-keygen -t rsa -b 4096 -C “${username}@elephantventures.com”`
-  * `ssh-add -K ~/.ssh/id_rsa_${purpose}`
+  * `ssh-add -K ~/.ssh/id_rsa_${purpose}` or use add in `~/.ssh/config`
   * Set up Git SSH
 
 ## Main Installs
