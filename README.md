@@ -11,7 +11,7 @@ Below is the basic setup requirements for my MAC to get it ready for development
   * <username>@personal-emails.com
 * **Generate SSH Key**
   * `sudo ssh-keygen -t rsa -b 4096 -C “${username}@elephantventures.com”`
-  * `ssh-add -K ~/.ssh/id_rsa_${purpose}` or use add in `~/.ssh/config`
+  * `ssh-add -K ~/.ssh/id_rsa_${purpose}` or use add in `~/.ssh/config`. See [Github Guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
   * Set up Git SSH
 
 ## Main Installs
